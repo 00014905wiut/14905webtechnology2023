@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <title>Edit Post</title>
+  </head>
+  <body>
+    <h1>Edit Post</h1>
+    <form action="/edit-post/<%= postIndex %>" method="POST">
+      <label for="title">Title:</label>
+      <input type="text" name="title" id="title" value="<%= post.title %>" required>
+      <br>
+      <label for="content">Content:</label>
+      <textarea name="content" id="content" rows="10" required><%= post.content %></textarea>
+      <br>
+      <button type="submit">Save Changes</button>
+    </form>
+  </body>
+</html>

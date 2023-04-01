@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <title>Rate Post</title>
+  </head>
+  <body>
+    <h1>Rate Post</h1>
+    <form action="/rate-post/<%= postIndex %>" method="POST">
+      <label for="rating">Rating:</label>
+      <input type="number" name="rating" id="rating" required min="1" max="5">
+      <button type="submit">Submit Rating</button>
+    </form>
+  </body>
+</html>
