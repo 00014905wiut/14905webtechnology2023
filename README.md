@@ -55,4 +55,5 @@ root/
 
 This file structure is suitable for a blogging application because it adheres to the accepted guidelines for a Node.js application, placing the main script at the root level and the views and static assets in their corresponding folders. In order to guarantee that the application's dependencies may be installed uniformly across various environments, the package.json and package-lock.json files are also supplied.
 
-Links: GitHub Repo: 
+Links: GitHub Repo: https://github.com/00014905wiut/14905webtechnology2023
+Link to Glitch Deployed Web App: https://enshrined-quaint-perch.glitch.me
